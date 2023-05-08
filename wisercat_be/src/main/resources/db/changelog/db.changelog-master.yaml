@@ -1,0 +1,38 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: karl
+      changes:
+        - createTable:
+            tableName: pets
+            columns:
+              - column:
+                  name: id
+                  type: long
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(255)
+              - column:
+                  name: code
+                  type: long
+              - column:
+                  name: type
+                  type: varchar(255)
+              - column:
+                  name: furcolor
+                  type: varchar(255)
+              - column:
+                  name: country
+                  type: varchar(255)
+  - changeSet:
+      id: 2
+      author: karl
+      sql: INSERT INTO pets (name, code, type, furcolor, country) VALUES ('Dave', 1234412412, 'Cat', 'Brown', 'Estonia')
+  - changeSet:
+      id: 3
+      author: karl
+      sql: INSERT INTO pets (name, code, type, furcolor, country) VALUES ('Kitty', 3456762134, 'Dog', 'Yellow', 'Norway')
