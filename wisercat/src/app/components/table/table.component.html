@@ -1,0 +1,29 @@
+<div class="row">
+    <app-button routerLink="" text="Add Pet"></app-button>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Code</th>
+            <th scope="col">Type</th>
+            <th scope="col">Fur color</th>
+            <th scope="col">Country</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pet of pets">
+              <th scope="row">{{pet.id}}</th>
+              <td>{{pet.name}}</td>
+              <td>{{pet.code}}</td>
+              <td>{{pet.type}}</td>
+              <td>{{pet.furcolor}}</td>
+              <td>{{pet.country}}</td>
+              <td>
+                <app-button [routerLink]="['/edit', pet.id]" text="Edit"></app-button>
+              </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
