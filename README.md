@@ -11,4 +11,4 @@ Kõige rohkem kulus aega, et saada infot backendist frontendi ja ka vastupidi.\
 Lahendused sai leitud internetist.\
 \
 Programmis saab lisada ja muuta loomi ning lisatud loomad kuvavad ka tabelis.\
-Lisaks backendi käivitamisel tekib automaatselt kaks looma.\
+Lisaks backendi käivitamisel tekib automaatselt kaks looma.
