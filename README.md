@@ -28,3 +28,8 @@ The solutions were found on the internet.\
 \
 Animals can be added and changed in the program, and the added animals are also displayed in the table.\
 In addition, two animals are automatically generated when the backend is started.
+
+## Pictures/Pildid
+![image](https://user-images.githubusercontent.com/90192557/236907778-082813b7-af86-4d83-be54-a5644d85be6c.png)
+![image](https://user-images.githubusercontent.com/90192557/236907830-644c0e77-e8db-480b-a0a6-5170224210a6.png)
+![image](https://user-images.githubusercontent.com/90192557/236907869-b1e02757-ba19-4d56-a4c1-8ba6a778a8c1.png)
